@@ -12,14 +12,14 @@ void methodOne()
   int i = 1000; // You are not allowed to change this line. 
   
   int max = 10;
-  
+  String output = ""; // Define outside the if statement to be accessible everywhere in the method
+
   if (i > max)
   {
-    String output = "i is greater than "+max+".";   
+    output = "i is greater than "+max+".";   
   }
   
-  println(output);
-   
+  println(output); // Now output is accessible here 
 }
 
 /* 
@@ -41,9 +41,9 @@ void methodTwo()
   }
   
   // Print the name of the weekday here: 
-  
-    
+  String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+  println("Todays day's " + days[weekDay]);
     
   // Print if it is weekend here:
-  
+  println("Is it weekend yet? " + (weekend ? "Yes" : "No"));
 }
