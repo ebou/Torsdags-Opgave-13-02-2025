@@ -8,6 +8,7 @@ String ageIntroduction = "I am " + age + " years old";
 String happiness = isHappy ? "I clap my hands" : "I don't clap my hands";
 // ternary, opstilt så ledes: hvis cond (her "isHappy") så gør X (klap), ellers gør Y (dont)
 
+
 println(introduction);
 println(ageIntroduction);
 println(happiness);
