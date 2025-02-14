@@ -19,7 +19,7 @@ void methodOne()
     output = "i is greater than "+max+".";   
   }
   
-  println(output); // Now output is accessible here 
+  println(output); 
 }
 
 /* 
