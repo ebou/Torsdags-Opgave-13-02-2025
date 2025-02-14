@@ -28,7 +28,8 @@ void draw() {
     light1 = red;
     displayText("STOP");
   } else if (time == 1) {
-    light1 = red;
+    light1 
+    = red;
     light2 = yellow;
     displayText("READY");
   } else if (time == 2) {
